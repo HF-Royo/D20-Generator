@@ -1,0 +1,18 @@
+using System;
+
+class Program
+{
+    static void PrintD20(){
+        
+        Random D20 = new Random();
+        int RandNum = D20.Next(1, 20);
+        Console.WriteLine("You rolled {0}",RandNum +" on a D20");
+        
+    }
+    
+    static void Main(string[] args) {
+       
+       PrintD20();
+       
+    }
+}
